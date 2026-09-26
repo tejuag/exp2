@@ -1,0 +1,14 @@
+on:
+   push:
+      branches: ["main"] 
+   pull_request:
+   branches: ["main"]
+   jobs:
+   build:
+    runs-on: ubuntu-latest 
+	step: -name:Checkout source codeuses:actions?checkout@v4
+                 - name:Set up JDK
+                 uses: actions/setup-java@v4
+		                           
+
+		
